@@ -10,8 +10,9 @@ FrontEnd 학습
     - satte : 컴포넌트의 상태를 저장하고 수정 가능한 데이터
     - context : 부모 컴포넌트에서 생성하여 모든 자식 컴포넌트에게 데이터 전달
 ---
-- 함수형 컴포넌트 작성
+<!-- - 함수형 컴포넌트 작성
   - const vs function
+    React hook을 사용하여 반환
     - const : arrow function<br>
-    
-    - function
+    ReferenceError :
+    - function -->

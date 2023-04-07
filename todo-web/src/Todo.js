@@ -1,12 +1,12 @@
 import React from "react";
 
-const Todo = () => {
-    return (
+const Todo = ({ item }) => {
+  return (
     <div className="Todo">
-        <input type="checkbox" id="todo0" name="todo0" value="todo0" />
-        <label for ="todo0">make Todo component</label>
+      <input type="checkbox" id={item.id} name={item.name} checked={item.done} />
+      <label htmlFor={item.id}>{item.title}</label>
     </div>
-    )
-}
-export default Todo;
+  );
+};
 
+export default Todo;
